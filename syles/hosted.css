@@ -1,0 +1,28 @@
+*{
+    padding:0px;
+    margin:0px;
+     font-family: 'Baloo 2', cursive;
+}
+#wallpaper{
+    position: relative;
+    background:url('../images/smit-wallpaper.jpg');
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#wallpaper img{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    opacity: 0.5;
+    width:200px;
+}
+#paragraph{
+    margin-top:50px;
+    letter-spacing: 0.5px;
+    color:rgba(0,0,0,0.7);
+}
+#number{
+    color:green;
+}

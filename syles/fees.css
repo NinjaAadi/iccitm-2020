@@ -1,0 +1,59 @@
+*{
+    font-family: 'Baloo 2', cursive;
+    padding:0px;
+    margin:0px;
+}
+#reg-head{
+     text-align: center;
+    background: cornflowerblue;
+    color:white;
+    padding:50px;
+}
+#fee-str{
+    margin-top:20px;
+    -webkit-box-shadow: 17px 18px 26px -22px rgba(20,10,20,0.36);
+    -moz-box-shadow: 17px 18px 26px -22px rgba(20,10,20,0.36);
+    box-shadow: 17px 18px 26px -22px rgba(20,10,20,0.36);
+    height:350px;
+    padding-bottom:60px;
+}
+#fee-str-1{
+    margin-top:20px;
+    -webkit-box-shadow: 17px 18px 26px -22px rgba(20,10,20,0.36);
+    -moz-box-shadow: 17px 18px 26px -22px rgba(20,10,20,0.36);
+    box-shadow: 17px 18px 26px -22px rgba(20,10,20,0.36);
+    height:auto;
+    margin-top:20px;
+    margin-bottom:50px;
+    padding-bottom:60px;
+    letter-spacing: 0.6px;
+    padding:20px;
+}
+#fee-str-1 strong{
+    color:cornflowerblue;
+}
+#para{
+    color:red;
+    margin-top:40px;
+}
+#head{
+    color: #1E90FF;
+    text-transform: uppercase;
+    padding: 10px;
+}
+#number{
+    color:green;
+}
+@media only screen and (max-width:580px){
+
+}
+@media only screen and (max-width:500px){
+    #fee-str{
+        height:400px;
+    }
+}
+@media only screen and (max-width:380px){
+    #fee-str{
+        height:450px;
+    }
+}

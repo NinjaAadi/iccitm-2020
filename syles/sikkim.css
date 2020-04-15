@@ -1,0 +1,22 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: 'Baloo 2', cursive;
+}
+#aboutsikkim{
+    background: white;
+    text-align: center;
+    padding:60px;
+    height:200px;
+    color:coral;
+}
+#info{
+    padding:15px;
+}
+#info h3{
+    color:coral;
+}
+#info h6{
+    color:rgba(0,0,0,0.7);
+    letter-spacing: 0.6px;
+}

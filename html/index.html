@@ -1,0 +1,119 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <title>Document</title>
+    <link href = "../syles/index.css"  type="text/css"rel="stylesheet">
+</head>
+<style>
+ 
+  </style>
+</style>
+<body>
+    <div id="nav-placeholder">
+    </div>
+    <br/>
+    <br/>
+    <!--carousel-->
+<div id="demo" class="carousel slide" data-ride="carousel">
+  <div id="iccitm">ICCITM</div>
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="../images/Sikkim-Manipal-University.jpg" alt="Los Angeles" width="1100" height="500">
+    </div>
+    <div class="carousel-item">
+      <img src="../images/smit-2.jpg" alt="Chicago" width="1100" height="500">
+    </div>
+    <div class="carousel-item">
+      <img src="../images/smit-3.jpeg" alt="New York" width="1100" height="500">
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+<!--carousel ends-->
+<div class="container-fluid" style="text-align: center;background:cornflowerblue;padding:40px;color:white;border:3px solid white;">
+    <h3 style="text-transform: uppercase;"id="div-text">INTERNATIONAL CONFERENCE ON
+CONTEMPORARY ISSUES
+IN TECHNO–MANAGEMENT</h3>
+    <h5 id="div-text">Sikkim Manipal Institute of Technology, Sikkim, India</h5>
+    <h6>November 26-27 , 2020</h6>
+</div>
+
+
+<div class="container-fluid" style="text-align:center;padding:30px;color:cornflowerblue">
+    <h1 id="div-text">ICCITM Welcomes You</h1>
+</div>
+<div class="container" id="paragraph-main">
+    <p>International Conference on Contemporary Issues in Techno-
+Management-2020 (ICCITM-2020) is being organized jointly by
+the Department of Management Studies and Department of
+Mechanical Engineering at SMIT Campus, Majhitar, East Sikkim,
+India during 26 th and 27 th of November, 2020 (Tentative dates). The
+aim of the (ICCITM–2020) is to accumulate and exchange
+innovative ideas, latest knowledge and unique experiences for the
+benefits of researchers, industrialists, academicians and other
+participants. In the era of globalization and privatization, various
+issues in the field of Business Management arise resulting in
+integration of systems, functionalities and business operations. The
+proposed event shall make an honest endeavor in the aforesaid
+direction in order to foster an outcome oriented approach in the
+defined fields. It will have an interface amongst the professionals
+from industry and educationists from academia to address key issues
+in modern management and technology and the challenges faced by
+the business world in handling the same.</p>
+</div>
+<div class="container-fluid" style="text-align:center;padding:30px;color:cornflowerblue">
+    <h1 id="div-text">Technical Sponcers</h1>
+</div>
+<div class="container-fluid" style="text-align:center;padding:30px;color:cornflowerblue">
+    <h1 id="div-text">Conference Theme</h1>
+</div>
+<div class="container" id="paragraph-main">
+  <p>
+    The conference aims to capture the innovative ideas and knowledge,
+both theoretical and empirical that will assist in guiding organizations
+to manage business under different environmental conditions. The
+primary objective of the conference is to provide with a forum to
+discuss diverse issues and challenges associated with various
+functional areas of business and technology and to put forward
+feasible solutions to resolve the same.
+ICCITM-2020 welcomes Abstracts followed by Full Papers/Case
+Studies/Review Papers and related observations to the conference
+theme, including but not restricted to the under mentioned areas.
+  </p>
+</div>
+   <div class="container"style="text-align:center">
+        <h4>ICCITM-2020 Conference Contact:</h4>
+        <strong id="contact">Dr. Neeta Dhusia Sharma</strong> <p id="number">+917872626756</p>
+        <strong id="contact">Dr. G. Sureshkrishna</strong> <p id="number">+916380536521</p>
+        <strong id="contact">Dr. Anindita Adhikary</strong> <p id="number">+919474492092</p>
+        <strong id="contact">Dr. Manish Kumar Roy</strong> <p id="number">+919735265227</p>
+    </div>
+</body>
+</html>
+<script>
+$.get("navigation.html", function(data){
+    $("#nav-placeholder").replaceWith(data);
+});
+</script>

@@ -1,0 +1,128 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+#navbar{
+    position: fixed;
+    width:100%;
+    background:white;
+    height:120px;
+    z-index:20;
+}
+#logo img{
+    position: absolute;
+    height: 70%;
+    left:20px;
+    top:20px;
+}
+#nav-elements{
+    position: absolute;
+    width:80%;
+    height: 100%;
+    background:none;
+    left:10%;
+    z-index:10;
+    background:white;
+}
+#nav-elements ul{
+    margin-top:40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    z-index:30;
+}
+#nav-elements ul li {
+    margin-left:40px;
+    font-family: 'Baloo 2', cursive;
+    font-size: 17px!important;
+    z-index:10;
+    padding:3px;
+    text-transform: uppercase;
+    padding:6px;
+    color:rgba(0,0,0,0.7);
+}
+#nav-elements ul li:hover{
+       background:cornflowerblue;
+       color:white;
+}
+#nav-elements ul a{
+    outline: none;
+    color:black;
+    text-decoration: none!important;
+    
+}
+#button{
+    position: absolute;
+    right:-10px;
+    height: 100%;
+    width:100px;
+    cursor: pointer;
+    display: none;
+}
+#button-element-1{
+    top:40px;
+    position: absolute;
+    width:42%;
+    height:5px;
+    background:#20B2AA	;
+}
+#button-element-2{
+    position: absolute;
+    width:42%;
+    height:5px;
+    top:52px;
+    background:#20B2AA	;
+}
+#button-element-3{
+    top:64px;
+    position: absolute;
+    width:42%;
+    height:5px;
+    background:#20B2AA	;
+}
+@media only screen and (max-width:1165px){
+
+    #nav-elements{
+        background:white;
+        width:100%;
+        left:0px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    #nav-elements ul{
+        flex-direction: column;
+        width:100%;
+        background:white
+
+    }
+    #nav-elements ul li{
+        margin-top:20px;
+        width:100%;
+        text-align: center;
+        margin-left: 0px;   
+        background:white;
+        z-index:20
+    }
+
+    #logo{
+        display: block;
+    }
+    #nav-elements{
+        top:100px;
+        display:none;
+        height:500px;
+        
+    }
+    #button{
+        display:block;
+    }
+}
+@media only screen and (min-width:1165px){
+    #nav-elements{
+        display: inline-block!important;
+    }
+}

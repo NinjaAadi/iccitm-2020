@@ -1,0 +1,27 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: 'Baloo 2', cursive;
+}
+#header{
+    text-align: center;
+    background: cornflowerblue;
+    height:200px;
+    position: relative;
+    padding: 50px;
+    text-transform: uppercase;
+    color:white;
+}
+#head1{
+    margin-top:50px;
+}
+#head1 h2{
+    color:coral;
+}
+#head1 h6{
+    color:rgba(0,0,0,0.7);
+    letter-spacing: 0.6px;
+}
+#number{
+    color:green!important;
+}

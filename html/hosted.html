@@ -1,0 +1,105 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href = '../syles/hosted.css' type="text/css" rel = "stylesheet"> 
+    <title>Document</title>
+</head>
+<body>
+    <div id="navi"></div>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <div id="wallpaper" class="container-fluid">
+        <img src = '../images/smit-logo.jpg'>
+        <div id="black"></div>
+    </div>
+    <div class="container"style="text-align:center;margin-top:40px;color:cornflowerblue">
+        <h3>Sikkim Manipal Institute Of Technolgy</h3>
+        <h5>Welcomes you</h5>
+    </div>
+    <div class="container">
+    <p id="paragraph">Sikkim Manipal University (SMU) was established in 1995
+via an Act of Sikkim Government and is recognized by
+UGC under section 2(f) of the UGC Act. SMU is a part of
+renowned Manipal Group that has made its mark in the field
+of education and health services in India and abroad. The
+University offers quality education to the aspirants around
+the globe and especially from North and North Eastern part
+of India. It was set up with the aim of imparting exemplary
+educational opportunities and healthcare services in the state
+of Sikkim and its neighboring region. SMU happens to be a
+first institution of its kind in the country with a collaboration
+of private- public partnership (PPP Mode) in the defined
+domain.</p>
+        <p id="paragraph">
+            Sikkim Manipal Institute of Technology (SMIT) was
+established in 1997 as a constituent college of Sikkim
+Manipal University (SMU) and is approved by AICTE.
+SMIT had the distinction of prestigious accreditation by
+National Assessment and Accreditation Council (NAAC).
+SMIT offers courses in Engineering, Management and Basic
+Sciences. Academic excellence is imparted by 200 plus
+fulltime faculty members comprising of an erudite mixture
+of Post Doctorates, Doctorates and Post Graduates. The
+research environment is dynamic and is supported through
+sponsored projects from different funding agencies in the
+country.
+        </p>
+    </div>
+      <div class="container"style="text-align:center;margin-top:40px;color:cornflowerblue">
+        <h3>Reaching SMIT</h3>
+    </div>
+    <div class='container'>
+        <p id="paragraph">
+            SMIT is located at a distance of 5 Kms from Rangpo (on
+West Bengal –Sikkim Border) and 35 kms from Gangtok,
+the capital city of Sikkim state in India. Rangpo is located at
+a distance of 76 kms from Siliguri, 80 kms from New
+Jalpaiguri (NJP) and 92 Kms from Bagdogra Airport (closest
+airport). One can travel by train from any part of the country
+to NJP or Siliguri from where the journey to SMIT campus
+will take 3 hours by bus or taxi. Major airlines operate flights
+from most metros to Bagdogra from where it takes 3 hours
+to reach the campus by car. One can also use the service of
+chartered helicopters to travel between Bagdogra and
+Gangtok.
+        </p>
+    </div>
+
+    <div class="container"style="text-align:center;margin-top:40px;color:cornflowerblue">
+        <h3>Accomodations</h3>
+            <p id="paragraph">
+                Accommodations are available at reasonable rates in nearby
+                places which will be intimated in due course of time.
+            </p>
+            <a href = "https://www.tripadvisor.in/Hotels-g659796-Gangtok_East_Sikkim_Sikkim-Hotels.html">Here is the link for the hotels in gangtok</a>
+    </div>
+     <div class="container"style="text-align:center">
+        <h4>ICCITM-2020 Conference Contact:</h4>
+        <strong id="contact">Dr. Neeta Dhusia Sharma</strong> <p id="number">+917872626756</p>
+        <strong id="contact">Dr. G. Sureshkrishna</strong> <p id="number">+916380536521</p>
+        <strong id="contact">Dr. Anindita Adhikary</strong> <p id="number">+919474492092</p>
+        <strong id="contact">Dr. Manish Kumar Roy</strong> <p id="number">+919735265227</p>
+    </div>
+</body>
+</html>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+     <link rel="stylesheet" href="/resources/demos/style.css">
+     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+     <link href="https://fonts.googleapis.com/css?family=Baloo+2&display=swap" rel="stylesheet">
+<script>
+$.get("navigation.html", function(data){
+    $("#navi").replaceWith(data);
+});
+$( function() {
+    $( "#date-picker" ).datepicker();
+} );
+</script>

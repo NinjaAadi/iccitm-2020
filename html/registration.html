@@ -1,0 +1,90 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+     <title>Document</title>
+    <link href="../syles/regsitration.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <div id="nav-holder"> </div>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <div class="container-fluid"id="registration-heading">
+            <h2>Welcom to the registration page</h2>
+            <h6>Please fill in the forms appropriately</h6>
+    </div>
+    <div class="container">
+    <form id="myform" action="">
+
+             <label for="name">Name:</label>
+             <input type="text" placeholder="Plese enter your name" id="name"/>
+
+             <label for="designation">Designation:</label>
+             <input type="text" placeholder="Plese enter your designation" id="designation"/>
+
+            <label for="category">Choose your category:</label>
+             <select id="category">
+                 <option value="Faculty">Faculty</option>
+                 <option value="Industry">Industry</option>
+                 <option value="Professional">Professional</option>
+                 <option value="Research">Research</option>
+                 <option value="Scholar">Scholar</option>
+                 <option value="Student">Student</option>
+             </select>
+
+             <label for="institution">Institution:</label>
+             <input type="text" placeholder="Please enter your Institution" id="institution"/>
+
+             <label for="address">Address for communication:</label>
+             <input type="text" placeholder="Please enter your address" id="address"/>
+
+             <label for="title">Title of paper:</label>
+             <input type="text" placeholder="Title" id="title"/>
+             
+              <label for="number">Phone Number:</label>
+             <input type="text" placeholder="Please enter your contact number" id="number"/>
+
+              <label for="email">Email:</label>
+             <input type="email" placeholder="Please enter your email" id="email"/>
+
+             <label for="addressco">Address of co-author:</label>
+             <input type="text" placeholder="Please enter your address" id="addressco"/>
+
+              <label for="dd">DD number:</label>
+             <input type="text" placeholder="Please enter your dd number" id="dd"/>
+
+             <label for="date-picker">Date:</label>
+             <input type="text" placeholder="dd/mm/yyyy" id="date-picker"/>
+
+             <label for="bank">Bank Name:</label>
+             <input type="text" placeholder="Please enter your bank name" id="bank"/>
+
+              <label for="branch">Branch Name:</label>
+             <input type="text" placeholder="Please enter your branch name" id="branch"/>
+             
+             <button type="submit" id="submit-button">Submit</button>
+    </form>
+    </div>
+</body>
+</html>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+     <link rel="stylesheet" href="/resources/demos/style.css">
+     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+     <link href="https://fonts.googleapis.com/css?family=Baloo+2&display=swap" rel="stylesheet">
+<script>
+$.get("navigation.html", function(data){
+    $("#nav-holder").replaceWith(data);
+});
+$( function() {
+    $( "#date-picker" ).datepicker();
+} );
+</script>
